@@ -31,4 +31,29 @@
 		<StatusBarText>Launch l5xgit.exe</StatusBarText>
 		<ToolbarIcon IconIndex="0">@@OUTDIR@@\Assets\pull.bmp</ToolbarIcon>
 	</CustomTool>
+	<CustomTool>
+		<Command>@@OUTDIR@@\Assets\l5xhelper.exe</Command>
+		<WorkingDirectory></WorkingDirectory>
+		<Arguments>"%project_path%"</Arguments>
+		<ToolName>ConvertToL5X</ToolName>
+		<StatusBarText>Convert Project to an L5X File</StatusBarText>
+		<ToolbarIcon IconIndex="0">@@OUTDIR@@\Assets\explode.bmp</ToolbarIcon>
+	</CustomTool>
+	<CustomTool>
+    	<Command>C:\Program Files (x86)\ControlFLASH Plus\ControlFLASH_Plus.exe</Command>
+    	<WorkingDirectory></WorkingDirectory>
+    	<Arguments></Arguments>
+    	<ToolName>Con&amp;trolFLASH Plus</ToolName>
+    	<StatusBarText>Open Control Flash Plus</StatusBarText>
+    	<ToolbarIcon></ToolbarIcon>
+	</CustomTool>
+	<CustomTool>
+    	<Command>C:\Program Files (x86)\Rockwell Software\RSLCompare.exe</Command>
+    	<WorkingDirectory></WorkingDirectory>
+    	<Arguments></Arguments>
+    	<ToolName>Co&amp;mpare Tool</ToolName>
+    	<StatusBarText>Open Logix Designer Compare Tool</StatusBarText>
+    	<StatusBarText></StatusBarText>
+    	<ToolbarIcon></ToolbarIcon>
+	</CustomTool>
 </CustomToolsContent>

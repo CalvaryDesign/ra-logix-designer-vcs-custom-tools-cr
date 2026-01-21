@@ -1,0 +1,2 @@
+Set-Alias -Name l5xgit -Value "C:\Build\ra-logix-designer-vcs-custom-tools-cr\artifacts\bin\Release\l5xgit.exe" -Scope Global
+Set-Alias -Name l5xplode -Value "C:\Build\ra-logix-designer-vcs-custom-tools-cr\artifacts\bin\Release\l5xplode.exe" -Scope Global
